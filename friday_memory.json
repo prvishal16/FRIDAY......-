@@ -1,0 +1,830 @@
+{
+  "short_term": [
+    {
+      "time": "2025-12-19 15:40:20.585288",
+      "input": "open Chrome",
+      "intent": "OPEN_APP",
+      "reasoning": [
+        "User input received: open Chrome",
+        "Intent identified as: OPEN_APP",
+        "Analyzing user objective",
+        "Selecting best available knowledge source",
+        "Preparing fallback strategy if needed",
+        "Executing aligned action"
+      ],
+      "plan": [
+        "OPEN_APP"
+      ],
+      "result": "Application not supported",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 15:41:36.690301",
+      "input": "open chrome",
+      "intent": "OPEN_APP",
+      "reasoning": [
+        "User input received: open chrome",
+        "Intent identified as: OPEN_APP",
+        "Analyzing user objective",
+        "Selecting best available knowledge source",
+        "Preparing fallback strategy if needed",
+        "Executing aligned action"
+      ],
+      "plan": [
+        "OPEN_APP"
+      ],
+      "result": "chrome opened successfully",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 15:41:59.191575",
+      "input": "open notepad",
+      "intent": "OPEN_APP",
+      "reasoning": [
+        "User input received: open notepad",
+        "Intent identified as: OPEN_APP",
+        "Analyzing user objective",
+        "Selecting best available knowledge source",
+        "Preparing fallback strategy if needed",
+        "Executing aligned action"
+      ],
+      "plan": [
+        "OPEN_APP"
+      ],
+      "result": "notepad opened successfully",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 15:47:47.313095",
+      "input": "battery",
+      "intent": "BATTERY",
+      "reasoning": [
+        "User input received: battery",
+        "Intent identified as: BATTERY",
+        "Analyzing user objective",
+        "Selecting best available knowledge source",
+        "Preparing fallback strategy if needed",
+        "Executing aligned action"
+      ],
+      "plan": [
+        "CHECK_BATTERY"
+      ],
+      "result": "Battery level is 40 percent",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 15:47:59.012869",
+      "input": "cancel",
+      "intent": "GENERAL",
+      "reasoning": [
+        "User input received: cancel",
+        "Intent identified as: GENERAL",
+        "Analyzing user objective",
+        "Selecting best available knowledge source",
+        "Preparing fallback strategy if needed",
+        "Executing aligned action"
+      ],
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am still learning this task",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 16:00:32.066429",
+      "input": "open YouTube",
+      "intent": "OPEN_APP",
+      "plan": [
+        "OPEN_APP"
+      ],
+      "result": "Application not supported"
+    },
+    {
+      "time": "2025-12-19 16:00:59.223156",
+      "input": "open Chrome",
+      "intent": "OPEN_APP",
+      "plan": [
+        "OPEN_APP"
+      ],
+      "result": "chrome opened successfully"
+    },
+    {
+      "time": "2025-12-19 16:01:34.402506",
+      "input": "play baby shark",
+      "intent": "GENERAL",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task"
+    },
+    {
+      "time": "2025-12-19 16:21:15.796950",
+      "input": "enter",
+      "intent": "GENERAL",
+      "result": "I am learning this task"
+    },
+    {
+      "time": "2025-12-19 16:21:49.486217",
+      "input": "play",
+      "intent": "GENERAL",
+      "result": "I am learning this task"
+    }
+  ],
+  "long_term": [
+    {
+      "time": "2025-12-19 13:58:18.191958",
+      "input": "Enter",
+      "intent": "GENERAL",
+      "reasoning": "Intent Identified: GENERAL\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task.",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 13:59:10.301766",
+      "input": "open Notepad",
+      "intent": "OPEN_APP",
+      "reasoning": "Intent Identified: OPEN_APP\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "GET_APP",
+        "OPEN_APP"
+      ],
+      "result": "Notepad opened",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 13:59:46.311809",
+      "input": "open YouTube",
+      "intent": "OPEN_APP",
+      "reasoning": "Intent Identified: OPEN_APP\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "GET_APP",
+        "OPEN_APP"
+      ],
+      "result": "YouTube opened",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:00:12.004863",
+      "input": "search about Rohit Sharma",
+      "intent": "SEARCH",
+      "reasoning": "Intent Identified: SEARCH\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "SEARCH_WEB"
+      ],
+      "result": "Search completed for: search about Rohit Sharma",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:00:27.670606",
+      "input": "tell me about Rohit",
+      "intent": "GENERAL",
+      "reasoning": "Intent Identified: GENERAL\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task.",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:40:31.064046",
+      "input": "enter",
+      "intent": "GENERAL",
+      "reasoning": "Intent Identified: GENERAL\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task.",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:40:43.926492",
+      "input": "what's my battery percentage",
+      "intent": "SYSTEM_STATUS",
+      "reasoning": "Intent Identified: SYSTEM_STATUS\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "CHECK_BATTERY"
+      ],
+      "result": "Battery level is 75%",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:41:02.645205",
+      "input": "status of my CPU",
+      "intent": "SYSTEM_STATUS",
+      "reasoning": "Intent Identified: SYSTEM_STATUS\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "CHECK_BATTERY"
+      ],
+      "result": "Battery level is 74%",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:42:12.867877",
+      "input": "v",
+      "intent": "GENERAL",
+      "reasoning": "Intent Identified: GENERAL\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task.",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:42:20.485013",
+      "input": "v",
+      "intent": "GENERAL",
+      "reasoning": "Intent Identified: GENERAL\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task.",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:42:25.951182",
+      "input": "V",
+      "intent": "GENERAL",
+      "reasoning": "Intent Identified: GENERAL\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task.",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:44:28.328950",
+      "input": "open Notepad",
+      "intent": "OPEN_APP",
+      "reasoning": "Intent Identified: OPEN_APP\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "GET_APP",
+        "OPEN_APP"
+      ],
+      "result": "Notepad opened",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:44:40.698192",
+      "input": "open Chrome",
+      "intent": "OPEN_APP",
+      "reasoning": "Intent Identified: OPEN_APP\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "GET_APP",
+        "OPEN_APP"
+      ],
+      "result": "Chrome opened",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:44:59.616608",
+      "input": "open Word",
+      "intent": "OPEN_APP",
+      "reasoning": "Intent Identified: OPEN_APP\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "GET_APP",
+        "OPEN_APP"
+      ],
+      "result": "Word opened",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:45:40.189071",
+      "input": "open command prompt",
+      "intent": "OPEN_APP",
+      "reasoning": "Intent Identified: OPEN_APP\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "GET_APP",
+        "OPEN_APP"
+      ],
+      "result": "prompt opened",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 15:36:06.794188",
+      "input": "tell me about Rohit Sharma",
+      "intent": "WIKI",
+      "reasoning": [
+        "User input received: tell me about Rohit Sharma",
+        "Intent identified as: WIKI",
+        "Analyzing user objective",
+        "Aligning objective with available tools",
+        "Selecting optimal execution plan",
+        "Preparing action sequence"
+      ],
+      "plan": [
+        "EXTRACT_TOPIC",
+        "FETCH_WIKI"
+      ],
+      "result": "Wikipedia module not available",
+      "verdict": "FAILED"
+    },
+    {
+      "time": "2025-12-19 15:39:36.627008",
+      "input": "tell me about Rohit Sharma",
+      "intent": "KNOWLEDGE",
+      "reasoning": [
+        "User input received: tell me about Rohit Sharma",
+        "Intent identified as: KNOWLEDGE",
+        "Analyzing user objective",
+        "Selecting best available knowledge source",
+        "Preparing fallback strategy if needed",
+        "Executing aligned action"
+      ],
+      "plan": [
+        "FETCH_KNOWLEDGE"
+      ],
+      "result": "I searched the web and opened results for further reading",
+      "verdict": "SUCCESS"
+    }
+  ],
+  "short": [
+    {
+      "time": "2025-12-19 16:25:55.326368",
+      "input": "check battery",
+      "intent": "BATTERY",
+      "plan": [
+        "CHECK_BATTERY"
+      ],
+      "result": "Battery level is 21 percent"
+    },
+    {
+      "time": "2025-12-19 18:21:24.231826",
+      "input": "tell me about rohit sharma",
+      "intent": "KNOWLEDGE",
+      "plan": [
+        "FETCH_KNOWLEDGE"
+      ],
+      "result": "I searched the web for more information"
+    },
+    {
+      "time": "2025-12-19 18:24:09.517139",
+      "input": "open youtube",
+      "intent": "OPEN_YOUTUBE",
+      "plan": [
+        "OPEN_YOUTUBE"
+      ],
+      "result": "YouTube opened"
+    },
+    {
+      "time": "2025-12-19 19:05:52.039439",
+      "input": "open youtube",
+      "intent": "OPEN_YOUTUBE",
+      "plan": [
+        "OPEN_YOUTUBE"
+      ],
+      "result": "YouTube opened"
+    },
+    {
+      "time": "2025-12-19 19:06:06.198277",
+      "input": "play dodo dodo",
+      "intent": "GENERAL",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task"
+    },
+    {
+      "time": "2025-12-19 19:06:17.816840",
+      "input": "play dodo",
+      "intent": "GENERAL",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task"
+    },
+    {
+      "time": "2025-12-19 19:06:32.616861",
+      "input": "tell me about rohit",
+      "intent": "KNOWLEDGE",
+      "plan": [
+        "FETCH_KNOWLEDGE"
+      ],
+      "result": "Unable to fetch knowledge"
+    },
+    {
+      "time": "2025-12-19 19:36:19.417840",
+      "input": "open youtube",
+      "intent": "OPEN_YOUTUBE",
+      "plan": [
+        "OPEN_YOUTUBE"
+      ],
+      "result": "YouTube opened"
+    },
+    {
+      "time": "2025-12-19 19:36:30.253353",
+      "input": "play rohit sharma on youtube",
+      "intent": "PLAY_YOUTUBE",
+      "plan": [
+        "PLAY_YOUTUBE"
+      ],
+      "result": "Playing rohit sharma on YouTube"
+    },
+    {
+      "time": "2025-12-19 19:36:46.610189",
+      "input": "open camera",
+      "intent": "OPEN_APP",
+      "plan": [
+        "OPEN_APP"
+      ],
+      "result": "camera opened successfully"
+    }
+  ],
+  "long": [
+    {
+      "time": "2025-12-19 13:58:18.191958",
+      "input": "Enter",
+      "intent": "GENERAL",
+      "reasoning": "Intent Identified: GENERAL\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task.",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 13:59:10.301766",
+      "input": "open Notepad",
+      "intent": "OPEN_APP",
+      "reasoning": "Intent Identified: OPEN_APP\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "GET_APP",
+        "OPEN_APP"
+      ],
+      "result": "Notepad opened",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 13:59:46.311809",
+      "input": "open YouTube",
+      "intent": "OPEN_APP",
+      "reasoning": "Intent Identified: OPEN_APP\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "GET_APP",
+        "OPEN_APP"
+      ],
+      "result": "YouTube opened",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:00:12.004863",
+      "input": "search about Rohit Sharma",
+      "intent": "SEARCH",
+      "reasoning": "Intent Identified: SEARCH\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "SEARCH_WEB"
+      ],
+      "result": "Search completed for: search about Rohit Sharma",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:00:27.670606",
+      "input": "tell me about Rohit",
+      "intent": "GENERAL",
+      "reasoning": "Intent Identified: GENERAL\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task.",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:40:31.064046",
+      "input": "enter",
+      "intent": "GENERAL",
+      "reasoning": "Intent Identified: GENERAL\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task.",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:40:43.926492",
+      "input": "what's my battery percentage",
+      "intent": "SYSTEM_STATUS",
+      "reasoning": "Intent Identified: SYSTEM_STATUS\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "CHECK_BATTERY"
+      ],
+      "result": "Battery level is 75%",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:41:02.645205",
+      "input": "status of my CPU",
+      "intent": "SYSTEM_STATUS",
+      "reasoning": "Intent Identified: SYSTEM_STATUS\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "CHECK_BATTERY"
+      ],
+      "result": "Battery level is 74%",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:42:12.867877",
+      "input": "v",
+      "intent": "GENERAL",
+      "reasoning": "Intent Identified: GENERAL\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task.",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:42:20.485013",
+      "input": "v",
+      "intent": "GENERAL",
+      "reasoning": "Intent Identified: GENERAL\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task.",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:42:25.951182",
+      "input": "V",
+      "intent": "GENERAL",
+      "reasoning": "Intent Identified: GENERAL\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task.",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:44:28.328950",
+      "input": "open Notepad",
+      "intent": "OPEN_APP",
+      "reasoning": "Intent Identified: OPEN_APP\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "GET_APP",
+        "OPEN_APP"
+      ],
+      "result": "Notepad opened",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:44:40.698192",
+      "input": "open Chrome",
+      "intent": "OPEN_APP",
+      "reasoning": "Intent Identified: OPEN_APP\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "GET_APP",
+        "OPEN_APP"
+      ],
+      "result": "Chrome opened",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:44:59.616608",
+      "input": "open Word",
+      "intent": "OPEN_APP",
+      "reasoning": "Intent Identified: OPEN_APP\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "GET_APP",
+        "OPEN_APP"
+      ],
+      "result": "Word opened",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 14:45:40.189071",
+      "input": "open command prompt",
+      "intent": "OPEN_APP",
+      "reasoning": "Intent Identified: OPEN_APP\nStep 1: Understand user objective\nStep 2: Align tools with objective\nStep 3: Execute best action",
+      "plan": [
+        "GET_APP",
+        "OPEN_APP"
+      ],
+      "result": "prompt opened",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 15:36:06.794188",
+      "input": "tell me about Rohit Sharma",
+      "intent": "WIKI",
+      "reasoning": [
+        "User input received: tell me about Rohit Sharma",
+        "Intent identified as: WIKI",
+        "Analyzing user objective",
+        "Aligning objective with available tools",
+        "Selecting optimal execution plan",
+        "Preparing action sequence"
+      ],
+      "plan": [
+        "EXTRACT_TOPIC",
+        "FETCH_WIKI"
+      ],
+      "result": "Wikipedia module not available",
+      "verdict": "FAILED"
+    },
+    {
+      "time": "2025-12-19 15:39:36.627008",
+      "input": "tell me about Rohit Sharma",
+      "intent": "KNOWLEDGE",
+      "reasoning": [
+        "User input received: tell me about Rohit Sharma",
+        "Intent identified as: KNOWLEDGE",
+        "Analyzing user objective",
+        "Selecting best available knowledge source",
+        "Preparing fallback strategy if needed",
+        "Executing aligned action"
+      ],
+      "plan": [
+        "FETCH_KNOWLEDGE"
+      ],
+      "result": "I searched the web and opened results for further reading",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 15:40:20.585288",
+      "input": "open Chrome",
+      "intent": "OPEN_APP",
+      "reasoning": [
+        "User input received: open Chrome",
+        "Intent identified as: OPEN_APP",
+        "Analyzing user objective",
+        "Selecting best available knowledge source",
+        "Preparing fallback strategy if needed",
+        "Executing aligned action"
+      ],
+      "plan": [
+        "OPEN_APP"
+      ],
+      "result": "Application not supported",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 15:41:36.690301",
+      "input": "open chrome",
+      "intent": "OPEN_APP",
+      "reasoning": [
+        "User input received: open chrome",
+        "Intent identified as: OPEN_APP",
+        "Analyzing user objective",
+        "Selecting best available knowledge source",
+        "Preparing fallback strategy if needed",
+        "Executing aligned action"
+      ],
+      "plan": [
+        "OPEN_APP"
+      ],
+      "result": "chrome opened successfully",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 15:41:59.191575",
+      "input": "open notepad",
+      "intent": "OPEN_APP",
+      "reasoning": [
+        "User input received: open notepad",
+        "Intent identified as: OPEN_APP",
+        "Analyzing user objective",
+        "Selecting best available knowledge source",
+        "Preparing fallback strategy if needed",
+        "Executing aligned action"
+      ],
+      "plan": [
+        "OPEN_APP"
+      ],
+      "result": "notepad opened successfully",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 15:47:47.313095",
+      "input": "battery",
+      "intent": "BATTERY",
+      "reasoning": [
+        "User input received: battery",
+        "Intent identified as: BATTERY",
+        "Analyzing user objective",
+        "Selecting best available knowledge source",
+        "Preparing fallback strategy if needed",
+        "Executing aligned action"
+      ],
+      "plan": [
+        "CHECK_BATTERY"
+      ],
+      "result": "Battery level is 40 percent",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 15:47:59.012869",
+      "input": "cancel",
+      "intent": "GENERAL",
+      "reasoning": [
+        "User input received: cancel",
+        "Intent identified as: GENERAL",
+        "Analyzing user objective",
+        "Selecting best available knowledge source",
+        "Preparing fallback strategy if needed",
+        "Executing aligned action"
+      ],
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am still learning this task",
+      "verdict": "SUCCESS"
+    },
+    {
+      "time": "2025-12-19 16:00:32.066429",
+      "input": "open YouTube",
+      "intent": "OPEN_APP",
+      "plan": [
+        "OPEN_APP"
+      ],
+      "result": "Application not supported"
+    },
+    {
+      "time": "2025-12-19 16:00:59.223156",
+      "input": "open Chrome",
+      "intent": "OPEN_APP",
+      "plan": [
+        "OPEN_APP"
+      ],
+      "result": "chrome opened successfully"
+    },
+    {
+      "time": "2025-12-19 16:01:34.402506",
+      "input": "play baby shark",
+      "intent": "GENERAL",
+      "plan": [
+        "FALLBACK"
+      ],
+      "result": "I am learning this task"
+    },
+    {
+      "time": "2025-12-19 16:21:15.796950",
+      "input": "enter",
+      "intent": "GENERAL",
+      "result": "I am learning this task"
+    },
+    {
+      "time": "2025-12-19 16:21:49.486217",
+      "input": "play",
+      "intent": "GENERAL",
+      "result": "I am learning this task"
+    },
+    {
+      "time": "2025-12-19 16:22:54.619681",
+      "input": "play shark doo doo doo doo doo in youtube",
+      "intent": "PLAY_YOUTUBE",
+      "plan": [
+        "PLAY_YOUTUBE"
+      ],
+      "result": "Playing shark doo doo doo doo doo in youtube on YouTube"
+    },
+    {
+      "time": "2025-12-19 16:24:14.011978",
+      "input": "play du du du du du in youtube youtube",
+      "intent": "PLAY_YOUTUBE",
+      "plan": [
+        "PLAY_YOUTUBE"
+      ],
+      "result": "Playing du du du du du in youtube youtube on YouTube"
+    },
+    {
+      "time": "2025-12-19 16:24:30.263220",
+      "input": "tell me about rohit sharma",
+      "intent": "KNOWLEDGE",
+      "plan": [
+        "FETCH_KNOWLEDGE"
+      ],
+      "result": "I searched the web for more information"
+    },
+    {
+      "time": "2025-12-19 16:24:49.785537",
+      "input": "open whatsapp",
+      "intent": "OPEN_APP",
+      "plan": [
+        "OPEN_APP"
+      ],
+      "result": "WhatsApp opened"
+    },
+    {
+      "time": "2025-12-19 16:25:23.265337",
+      "input": "what is my cpu status",
+      "intent": "KNOWLEDGE",
+      "plan": [
+        "FETCH_KNOWLEDGE"
+      ],
+      "result": "I searched the web for more information"
+    },
+    {
+      "time": "2025-12-19 16:25:37.739089",
+      "input": "what is my battery",
+      "intent": "KNOWLEDGE",
+      "plan": [
+        "FETCH_KNOWLEDGE"
+      ],
+      "result": "I searched the web for more information"
+    }
+  ],
+  "last_action": "YOUTUBE",
+  "last_topic": "_youtube"
+}
