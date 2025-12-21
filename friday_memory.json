@@ -1,0 +1,155 @@
+{
+  "short": [
+    {
+      "role": "user",
+      "content": "open youtube"
+    },
+    {
+      "role": "assistant",
+      "content": "YouTube opened"
+    },
+    {
+      "role": "user",
+      "content": "open youtube+notepad+camera"
+    },
+    {
+      "role": "assistant",
+      "content": "YouTube opened"
+    },
+    {
+      "role": "user",
+      "content": "open camera"
+    },
+    {
+      "role": "assistant",
+      "content": "Camera opened"
+    },
+    {
+      "role": "user",
+      "content": "research rohit"
+    },
+    {
+      "role": "assistant",
+      "content": "Researching 'rohit'. Notes saved."
+    },
+    {
+      "role": "user",
+      "content": "open notepad+youtube"
+    },
+    {
+      "role": "assistant",
+      "content": "Notepad opened\nYoutube opened"
+    },
+    {
+      "role": "user",
+      "content": "open notepad"
+    },
+    {
+      "role": "assistant",
+      "content": "{\n  \"1\": \"Notepad opened\"\n}"
+    },
+    {
+      "role": "user",
+      "content": "open notepad+chrome"
+    },
+    {
+      "role": "assistant",
+      "content": "{\n  \"1\": \"Notepad opened\\nChrome opened\"\n}"
+    },
+    {
+      "role": "user",
+      "content": "research rohit"
+    },
+    {
+      "role": "assistant",
+      "content": "{\n  \"1\": \"Researching 'rohit'. Notes saved.\"\n}"
+    },
+    {
+      "role": "user",
+      "content": "open chrome+notepad+whatsapp"
+    },
+    {
+      "role": "assistant",
+      "content": "{\n  \"1\": \"Chrome opened\\nNotepad opened\\nWhatsapp opened\"\n}"
+    },
+    {
+      "role": "user",
+      "content": "memory+status t"
+    },
+    {
+      "role": "assistant",
+      "content": "{\n  \"1\": \"Command executed.\"\n}"
+    },
+    {
+      "role": "user",
+      "content": "memory+status battery"
+    },
+    {
+      "role": "assistant",
+      "content": "{\n  \"1\": \"Battery: 51% (running on battery). 1h 27m remaining\"\n}"
+    },
+    {
+      "role": "user",
+      "content": "battery"
+    },
+    {
+      "role": "assistant",
+      "content": "{\n  \"1\": \"Battery: 51% (running on battery). 1h 27m remaining\"\n}"
+    },
+    {
+      "role": "user",
+      "content": "cpu"
+    },
+    {
+      "role": "assistant",
+      "content": "{\n  \"1\": \"CPU: 2.8%. RAM: 81.8% (12.83/15.69 GB)\"\n}"
+    }
+  ],
+  "long": [
+    {
+      "role": "user",
+      "content": "tell me about rohit sharma"
+    },
+    {
+      "role": "assistant",
+      "content": "Searching web."
+    },
+    {
+      "role": "user",
+      "content": "play do do do"
+    },
+    {
+      "role": "assistant",
+      "content": "Command completed."
+    },
+    {
+      "role": "user",
+      "content": "play do do do in youtube"
+    },
+    {
+      "role": "assistant",
+      "content": "Searching YouTube for 'do do do in youtube'"
+    },
+    {
+      "user": "enter",
+      "assistant": "\nGoal: enter\nIntent: general\nConfidence: 0.5\n\nWhy:\nSingle step execution\n\nReflection:\n{}\n"
+    },
+    {
+      "user": "open chrome",
+      "assistant": "\nGoal: open chrome\nIntent: general\nConfidence: 0.5\n\nWhy:\nSingle step execution\n\nReflection:\n{}\n"
+    },
+    {
+      "user": "research chrome",
+      "assistant": "\nGoal: research chrome\nIntent: general\nConfidence: 0.5\n\nWhy:\nSingle step execution\n\nReflection:\n{}\n"
+    },
+    {
+      "user": "prepare me for interview",
+      "assistant": "\nGoal: prepare me for interview\nIntent: general\nConfidence: 0.5\n\nWhy:\nSingle step execution\n\nReflection:\n{}\n"
+    }
+  ],
+  "context": {
+    "last_action": "cpu",
+    "last_topic": "do do do in youtube",
+    "last_search": ""
+  }
+}
